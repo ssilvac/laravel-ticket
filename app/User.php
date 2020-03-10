@@ -24,5 +24,24 @@ class User extends Authenticatable
         'password',
     ];
 
+    public function userprofile()
+    {
+        return $this->hasOne('App\UserProfile', 'id');
+    }
+
+    public function tickets()
+    {
+        return $this->hasMany('App\Ticket', 'user_id', 'id');
+    }
+
+    public function isAdmin()
+    {
+        if( $this->userprofile->name == 'Admin' ){
+            return true;
+        }
+
+        return false;
+    }
+
     public $timestamps = false;
 }
