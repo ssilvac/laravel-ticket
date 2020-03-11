@@ -25,6 +25,7 @@
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
+        "@popperjs/core": "^2.1.0",
         "react-router-dom": "^5.1.2"
     }
 }

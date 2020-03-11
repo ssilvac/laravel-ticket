@@ -19,7 +19,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/getAllUsers', 'UserController@getAllUsers');
+Route::get('/getTickets', 'TicketController@getTickets');
+Route::get('/getAllTickets', 'TicketController@getAllTickets');
+Route::post('/createTicket', 'TicketController@createTicket');
+Route::get('/takeTicket/{id}', 'TicketController@takeTicket');
 
-
-Route::view('/admin/{path?}', 'app');
+Route::get('/{path?}', 'HomeController@index')->name('home');
