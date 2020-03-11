@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b549ff53-f16d-48e3-8967-25cb74032f47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/services/TicketService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/services/UserService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/TicketFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/TicketFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_10_034014_create_tickets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_10_034014_create_tickets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/AdminProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AdminProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Tickets/FormTicket.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Tickets/FormTicket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Tickets/ListTickets.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Tickets/ListTickets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Tickets/Ticket.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Tickets/Ticket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/UserProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583760546040</updated>
-      <workItem from="1583760558074" duration="34728000" />
+      <workItem from="1583760558074" duration="35288000" />
     </task>
     <servers />
   </component>
