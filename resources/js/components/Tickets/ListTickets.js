@@ -1,14 +1,29 @@
 import React from 'react';
 import Ticket from "./Ticket";
+import Menu from "./../Menu";
 
-function ListTicket(){
+function ListTicket({tickets, typeUser}){
 
     return(
-        <div>
-            <h1>LISTADO TICKET</h1>
+        <div className="container">
+
+            <Menu slc='list' typeForm='create'/>
+
+            <br/><br/>
+
+
+            <h3>LISTADO TICKET</h3>
 
             <hr />
-            <Ticket/>
+
+            {tickets.map( (ticket, index) => (
+
+                <div key={ticket.id}>
+                    <Ticket key={ticket.id} ticket={ticket} typeUser={typeUser} />
+                    <br />
+                </div>
+                ))
+            }
         </div>
     );
 }

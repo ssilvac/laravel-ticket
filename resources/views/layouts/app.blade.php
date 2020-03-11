@@ -72,7 +72,13 @@
             </div>
         </nav>
 
-        <main class="py-4" id="yield-content">
+        @if(Auth::check() && Auth::user()->isAdmin())
+            <main class="py-4" id="yield-admin">
+        @elseif( Auth::check() )
+            <main class="py-4" id="yield-user">
+        @else
+            <main class="py-4" id="yield-content">
+        @endif
             @yield('content')
         </main>
     </div>
